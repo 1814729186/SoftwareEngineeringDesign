@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 012b969aa4a79bc4c9ce0edfd5d118f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2691900681565813358
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_0
+  - first:
+      213: 166401032791977701
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_1
+  - first:
+      213: 5079307324997257936
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_2
+  - first:
+      213: 2219694723242557875
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_3
+  - first:
+      213: -6916545102467243230
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_4
+  - first:
+      213: -4012146888119985208
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_5
+  - first:
+      213: -367057543259053476
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_6
+  - first:
+      213: -1205491106558077320
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_7
+  - first:
+      213: -7686404420771913490
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_8
+  - first:
+      213: 5389622430831026283
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_9
+  - first:
+      213: 5081583962855364428
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_10
+  - first:
+      213: 8295079821740805457
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_11
+  - first:
+      213: 7856350265749974545
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_12
+  - first:
+      213: -2910591232544349776
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_13
+  - first:
+      213: 2514215063174381998
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_14
+  - first:
+      213: 4214973910843615177
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_15
+  - first:
+      213: 794302305329612784
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_16
+  - first:
+      213: 7806369838004339032
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_17
+  - first:
+      213: 5076420569447287986
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_18
+  - first:
+      213: 104286012161126108
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_19
+  - first:
+      213: -8011561432454391185
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_20
+  - first:
+      213: 2426877785130942088
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_21
+  - first:
+      213: -7284668359110393483
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_22
+  - first:
+      213: 5001628663956183027
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_23
+  - first:
+      213: -2756564920682916839
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_24
+  - first:
+      213: 7685938205465501522
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_25
+  - first:
+      213: -4404493568827037637
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_26
+  - first:
+      213: 2596688188577461817
+    second: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_0
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1269
+        width: 396
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29543a8a79274aad0800000000000000
+      internalID: -2691900681565813358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1303
+        width: 192
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da408bc9135d7640800000000000000
+      internalID: 5079307324997257936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1319
+        width: 67
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b18ea02790fdce10800000000000000
+      internalID: 2219694723242557875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_4
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 915
+        width: 136
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223e87eefde7300a0800000000000000
+      internalID: -6916545102467243230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_5
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 925
+        width: 136
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb5bea99adf158c0800000000000000
+      internalID: -4012146888119985208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_6
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 923
+        width: 70
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52aae1fb13f7eaf0800000000000000
+      internalID: -367057543259053476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_7
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 885
+        width: 287
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87696bdb93c354fe0800000000000000
+      internalID: -1205491106558077320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_8
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1076
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0e5e357e7645590800000000000000
+      internalID: -7686404420771913490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 939
+        width: 210
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60292f9b09cbca40800000000000000
+      internalID: 5389622430831026283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_10
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 888
+        width: 355
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47d05ad0b9658640800000000000000
+      internalID: 5081583962855364428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_14
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 13
+        width: 174
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea10271774944e220800000000000000
+      internalID: 2514215063174381998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_16
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 102
+        width: 396
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f702710dbde50b00800000000000000
+      internalID: 794302305329612784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_17
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 91
+        width: 380
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851829bf10cc55c60800000000000000
+      internalID: 7806369838004339032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_22
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 43
+        width: 348
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57182b429b8a7ea90800000000000000
+      internalID: -7284668359110393483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_23
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 79
+        width: 266
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7158525ca596540800000000000000
+      internalID: 5001628663956183027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_24
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 211
+        width: 214
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914546e3fc6beb9d0800000000000000
+      internalID: -2756564920682916839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Well-2048x1024-fmt12_25
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 235
+        width: 124
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fdf567310f9aa60800000000000000
+      internalID: 7685938205465501522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

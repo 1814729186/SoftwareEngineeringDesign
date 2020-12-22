@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: c37a6cf0c9f8f43498453cf8bcf4aedd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4510631572994120752
+    second: WateryCast_0
+  - first:
+      213: -732395028334399862
+    second: WateryCast_1
+  - first:
+      213: -6636589767221772147
+    second: WateryCast_2
+  - first:
+      213: 7264186509832873830
+    second: WateryCast_3
+  - first:
+      213: -4793363684008709147
+    second: WateryCast_4
+  - first:
+      213: 6484800069456702432
+    second: WateryCast_5
+  - first:
+      213: 6958297702953734129
+    second: WateryCast_6
+  - first:
+      213: 7553964580474469846
+    second: WateryCast_7
+  - first:
+      213: 4281659073807653357
+    second: WateryCast_8
+  - first:
+      213: -9002068479862727847
+    second: WateryCast_9
+  - first:
+      213: -8072790151738927343
+    second: WateryCast_10
+  - first:
+      213: -7425976114916459771
+    second: WateryCast_11
+  - first:
+      213: -7880802138625752476
+    second: WateryCast_12
+  - first:
+      213: 7554815901993962238
+    second: WateryCast_13
+  - first:
+      213: 1905964535321913850
+    second: WateryCast_14
+  - first:
+      213: -3013124128174751936
+    second: WateryCast_15
+  - first:
+      213: -4653061640137455771
+    second: WateryCast_16
+  - first:
+      213: 7917168858680796281
+    second: WateryCast_17
+  - first:
+      213: 6748149060286512195
+    second: WateryCast_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WateryCast_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 740
+        width: 279
+        height: 462
+      alignment: 9
+      pivot: {x: 0.4793318, y: 0.013220717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d326039b740761c0800000000000000
+      internalID: -4510631572994120752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_1
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 714
+        width: 236
+        height: 456
+      alignment: 9
+      pivot: {x: 0.47556603, y: 0.013138487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8eadd42a9206d5f0800000000000000
+      internalID: -732395028334399862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_2
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 714
+        width: 253
+        height: 453
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.04173794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8001c4d4c816e3a0800000000000000
+      internalID: -6636589767221772147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_3
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 856
+        width: 375
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5179404, y: 0.043370564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667e5c4b4239fc460800000000000000
+      internalID: 7264186509832873830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_4
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 856
+        width: 418
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5344887, y: 0.088110544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3376f202d8a7db0800000000000000
+      internalID: -4793363684008709147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_5
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 850
+        width: 406
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5071023, y: 0.10078406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb25632e43aef950800000000000000
+      internalID: 6484800069456702432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_6
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 870
+        width: 441
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48692435, y: 0.04035485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff49f9e4e6d09060800000000000000
+      internalID: 6958297702953734129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 472
+        width: 424
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5408006, y: 0.058214497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd301963c215d860800000000000000
+      internalID: 7553964580474469846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_8
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 458
+        width: 392
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5367762, y: -0.016804533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de912af0e328b6b30800000000000000
+      internalID: 4281659073807653357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_9
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 458
+        width: 407
+        height: 138
+      alignment: 9
+      pivot: {x: 0.54958904, y: 0.08214094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b9a0e996a321380800000000000000
+      internalID: -9002068479862727847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_10
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 458
+        width: 409
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5211489, y: 0.07378381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1175453e020b7ff80800000000000000
+      internalID: -8072790151738927343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_11
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 463
+        width: 403
+        height: 122
+      alignment: 9
+      pivot: {x: 0.51430976, y: 0.05097211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b7ed76112a1f890800000000000000
+      internalID: -7425976114916459771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_12
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 469
+        width: 317
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5090964, y: 0.029269056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462c21e8534c1a290800000000000000
+      internalID: -7880802138625752476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 60
+        width: 337
+        height: 259
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.021316499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa82d5290918d860800000000000000
+      internalID: 7554815901993962238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_14
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 63
+        width: 329
+        height: 288
+      alignment: 9
+      pivot: {x: 0.48247308, y: 0.019461531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ea5a85a8537a10800000000000000
+      internalID: 1905964535321913850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_15
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 63
+        width: 398
+        height: 311
+      alignment: 9
+      pivot: {x: 0.47102302, y: 0.017916124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f3cf3d19b3f26d0800000000000000
+      internalID: -3013124128174751936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_16
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 68
+        width: 360
+        height: 297
+      alignment: 9
+      pivot: {x: 0.53203636, y: 0.014607362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5674c9d57110d6fb0800000000000000
+      internalID: -4653061640137455771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_17
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 77
+        width: 366
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5157557, y: 0.009850311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9742478412f6fdd60800000000000000
+      internalID: 7917168858680796281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WateryCast_18
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 74
+        width: 332
+        height: 314
+      alignment: 9
+      pivot: {x: 0.6042142, y: 0.06843319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c73cd21dd36ad50800000000000000
+      internalID: 6748149060286512195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

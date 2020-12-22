@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: a9fc02633fcf13d419e7a88768eb1636
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4223726305710721622
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_0
+  - first:
+      213: 8660395825616489061
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_1
+  - first:
+      213: -644869021259489609
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_2
+  - first:
+      213: -4398970003389238565
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_3
+  - first:
+      213: 3749969845562630297
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_4
+  - first:
+      213: 1592333000007790375
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_5
+  - first:
+      213: -8700830568257847360
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_6
+  - first:
+      213: 530949125496868643
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_7
+  - first:
+      213: -4502124767136037540
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_8
+  - first:
+      213: -4447019875145239508
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_9
+  - first:
+      213: -8694175353343984852
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_10
+  - first:
+      213: -2572571008589700589
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_11
+  - first:
+      213: -4784455220601493533
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_12
+  - first:
+      213: -260033576735660460
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_13
+  - first:
+      213: -6844743762851788761
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_14
+  - first:
+      213: -1727476056701468994
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_15
+  - first:
+      213: -8615023510285339609
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_16
+  - first:
+      213: -4348266420561819870
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_17
+  - first:
+      213: 1903968946609283081
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_18
+  - first:
+      213: 7578583690704444182
+    second: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1064
+        width: 351
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 11, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5b3af9d4f4265c0800000000000000
+      internalID: -4223726305710721622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_1
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1066
+        width: 105
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a85206e18ef2870800000000000000
+      internalID: 8660395825616489061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_2
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1068
+        width: 107
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be9c25ba07fc07f0800000000000000
+      internalID: -644869021259489609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_3
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1000
+        width: 794
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2b262b618b3f2c0800000000000000
+      internalID: -4398970003389238565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_4
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 1069
+        width: 257
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990ef23d4b19a0430800000000000000
+      internalID: 3749969845562630297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_5
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 598
+        width: 671
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fa89d4d6a191610800000000000000
+      internalID: 1592333000007790375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1202
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f8b03aa6f4e5700800000000000000
+      internalID: 530949125496868643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_8
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 561
+        width: 254
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c554e58a06d3581c0800000000000000
+      internalID: -4502124767136037540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_10
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 733
+        width: 196
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bb9f07495185780800000000000000
+      internalID: -8694175353343984852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_11
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 739
+        width: 163
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312ea893c446c4cd0800000000000000
+      internalID: -2572571008589700589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_14
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 690
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72806ac00d59201a0800000000000000
+      internalID: -6844743762851788761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_15
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 399
+        width: 552
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 99, y: 0, z: 138, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebef052dda5c608e0800000000000000
+      internalID: -1727476056701468994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_16
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 0
+        width: 329
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724bdc103c9417880800000000000000
+      internalID: -8615023510285339609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_18
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 105
+        width: 154
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90065065ba14c6a10800000000000000
+      internalID: 1903968946609283081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Crossroads_Tollbooth-2048x1024-fmt12_19
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 89
+        width: 248
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bd101b6b98c2960800000000000000
+      internalID: 7578583690704444182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

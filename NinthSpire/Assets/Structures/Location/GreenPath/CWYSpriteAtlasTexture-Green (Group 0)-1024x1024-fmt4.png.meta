@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: c84e31560ce4f0c4689a42266dbcc931
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6040274052257808787
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_0
+  - first:
+      213: 1237888493368161926
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_1
+  - first:
+      213: 8072319232614112998
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_2
+  - first:
+      213: 1615692576129051083
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_3
+  - first:
+      213: -7327550641331302061
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_4
+  - first:
+      213: 5428622011096114316
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_5
+  - first:
+      213: -113942138626036943
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_6
+  - first:
+      213: 7503210558607720707
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_7
+  - first:
+      213: 4765452939946526211
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_8
+  - first:
+      213: -5990759892626900654
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_9
+  - first:
+      213: -12517801585650816
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_10
+  - first:
+      213: -1765943455179803887
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_11
+  - first:
+      213: 4198875582043358884
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_12
+  - first:
+      213: 1298004720006131670
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_13
+  - first:
+      213: 5007743278749517731
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_14
+  - first:
+      213: 8386012778516846314
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_15
+  - first:
+      213: 3275019703255296394
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_16
+  - first:
+      213: -2363870793723834380
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_17
+  - first:
+      213: 7625498937021433035
+    second: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 944
+        width: 85
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39106de6f3d53d350800000000000000
+      internalID: 6040274052257808787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 940
+        width: 115
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686b0cea60ddd2110800000000000000
+      internalID: 1237888493368161926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_2
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 895
+        width: 179
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee9485b293a60070800000000000000
+      internalID: 8072319232614112998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 890
+        width: 116
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9686276d71c6610800000000000000
+      internalID: 1615692576129051083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_4
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 930
+        width: 94
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35113c5c38f4f4a90800000000000000
+      internalID: -7327550641331302061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_5
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 918
+        width: 129
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 18, y: 0, z: 22, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84204ff4f6565b40800000000000000
+      internalID: 5428622011096114316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_6
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 884
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b2f368a323b6ef0800000000000000
+      internalID: -113942138626036943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_7
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 851
+        width: 187
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30106c4df32c02860800000000000000
+      internalID: 7503210558607720707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_8
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 930
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3068a5f433a422240800000000000000
+      internalID: 4765452939946526211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 662
+        width: 296
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 16, y: 0, z: 27, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259f0593e9b8cdca0800000000000000
+      internalID: -5990759892626900654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_10
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 649
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0835e13302783dff0800000000000000
+      internalID: -12517801585650816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_11
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 537
+        width: 173
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113f49ca8cb1e77e0800000000000000
+      internalID: -1765943455179803887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_12
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 550
+        width: 165
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a681c36817654a30800000000000000
+      internalID: 4198875582043358884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_13
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 557
+        width: 176
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfeebc6a60730210800000000000000
+      internalID: 1298004720006131670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_14
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 509
+        width: 167
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a70738daf31f7540800000000000000
+      internalID: 5007743278749517731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 246
+        width: 159
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae61269e03a116470800000000000000
+      internalID: 8386012778516846314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 245
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89efec7115337d20800000000000000
+      internalID: 3275019703255296394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 199
+        width: 272
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff8b259908d13fd0800000000000000
+      internalID: -2363870793723834380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CWYSpriteAtlasTexture-Green (Group 0)-1024x1024-fmt4_18
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 202
+        width: 260
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc40840b1e633d960800000000000000
+      internalID: 7625498937021433035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
