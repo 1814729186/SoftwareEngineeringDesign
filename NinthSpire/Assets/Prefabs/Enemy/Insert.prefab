@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2309421435320168828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50, y: -3.6189485, z: -0.8450409}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2309421436264726761}
@@ -92,7 +92,7 @@ Transform:
   m_GameObject: {fileID: 2309421436264726764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 2309421435320168827}
   m_RootOrder: 0
@@ -135,7 +135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -61
   m_Sprite: {fileID: 7311782154600231495, guid: f0727c93ce41a4147a6cf30f81f774bf,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -179,27 +179,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42b203a0e28c53447ac145c8dbd4ad3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 5
+  HP: 30
   attack: 1
   bornPosition: {x: 0, y: 0, z: 0}
-  rebornTime: 50
+  rebornTime: 180
   isAlive: 1
   hurtTime: 3
   movePosition:
   - {fileID: 2309421436081626486}
   curPosition: 0
-  MAXMOVESPEED: 0.1
-  moveSpeed: 0.1
+  MAXMOVESPEED: 0.12
+  moveSpeed: 0.12
   animator: {fileID: 0}
   hitEffect: {fileID: 3899700569238765358, guid: a498daa30eccbc34596a9f25092b4ceb,
     type: 3}
   attackState: 0
-  flyBor: 2
-  attackBor: 3
+  flyBor: 150
+  attackBor: 30
   aimPoint: {x: 0, y: 0, z: 0}
-  frequency: 0.5
+  retreatingTime: 0
+  wanderingTime: 0
+  detectFactor: 0
+  MaxAtkTimeDelta: 6
+  MaxAtkRep: 3
   acid: {fileID: 648207666211487277, guid: 409b9e7dc294ff341a8d114d472f8c51, type: 3}
-  spentTime: 0
+  flyBorXdivY: 5
+  atkArc: 40
 --- !u!50 &2309421436264726758
 Rigidbody2D:
   serializedVersion: 4
@@ -212,7 +217,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0

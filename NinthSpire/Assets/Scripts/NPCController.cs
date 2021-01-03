@@ -31,7 +31,6 @@ public class NPCController : MonoBehaviour
     {
         if(calulateDis(player.transform.position,this.transform.position) < 1f)
         {
-            Debug.Log("talk");
             if (Input.GetKeyDown(KeyCode.W))
             {
                 int index = random.Next(talk.Length);//随机播放一段话

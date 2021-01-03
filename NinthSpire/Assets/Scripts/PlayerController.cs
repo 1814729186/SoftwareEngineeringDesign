@@ -27,13 +27,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField]private float[] castTime;       //蓄力完成时间（分阶段）
     [SerializeField]private float floatingTime;     //蓄力释放后的悬浮时间
     [SerializeField]private float bounceCooldown;   //反冲的冷却时间
+    [SerializeField] private float counterAtkThreshTime;    //防御反击判定时间
 
     [Header("预设动作/特效资源")]
     [SerializeField]private GameObject[] boostingEffects;           //蓄力特效预设对象
     [SerializeField]private GameObject[] castThreshAnimations;      //蓄力动画预设对象
     [SerializeField]private GameObject[] castLoopingAnimations;     //蓄力完成循环动画预设对象
     [SerializeField]private GameObject[] castReleaseAnimations;     //技能动画预设对象
-    [SerializeField]private GameObject[] bounceAnimations;         //反冲动画预设对象
+    [SerializeField]private GameObject[] bounceAnimations;          //反冲动画预设对象
     [SerializeField]private GameObject hurtMask;                    //受伤动画预设对象
     private GameObject deathMask;                   //死亡动画预设对象
 
@@ -67,19 +68,19 @@ public class PlayerController : MonoBehaviour
     private AudioSource playSource;     //音效实例句柄
     private bool deathAllow = false;
     public int castAbility;
+
     // Start is called before the first frame update
     void Start()
     {
         deathMask = GameObject.Find("DeathMask");
-        rebornPosition = this.transform.position;   //初始重生位置
         config = GameObject.Find("Config").GetComponent<Config>();
         rb = GetComponent<Rigidbody2D>();       //获取刚体组件
         anim = GetComponent<Animator>();        //获取动画机组件
         clips = anim.runtimeAnimatorController.animationClips;      //读取动画机动画片段
         HP = config.Health;
         //建立初始状态
-        transform.position = config.InitPosition;
-        transform.rotation = Quaternion.Euler(config.InitRotation);
+        rebornPosition = transform.position = config.InitPosition;  //读取config，设置初始位置和初始重生位置
+        transform.rotation = Quaternion.Euler(config.InitRotation); //读取config，设置初始旋转
         anim.Play("Idle");      //玩家“闲置”
         direct = config.InitRotation.y > 90 ? -1 : 1;   //朝向
         castAbility = config.CastAbility;
@@ -91,9 +92,6 @@ public class PlayerController : MonoBehaviour
         isCastActive = 0;       //技能蓄力标记置0（表示没有蓄力技能已准备好）
         deathAllow = true;
         GetComponent<SpriteRenderer>().material.SetFloat("_FlashAmount", 0f) ;
-        playSource = AudioManger.Instance.PlayAudio("focus_health_charging", transform, 1);
-        playSource.Stop();
-        
     }
 
     // Update is called once per frame
@@ -110,11 +108,7 @@ public class PlayerController : MonoBehaviour
         if (HP <= 0&&deathAllow == true)
             Death();
     }
-    public void Death()
-    {
-        deathMask.GetComponent<UnityEngine.Canvas>().enabled = true;
-        StartCoroutine(Reborn());
-    }
+
     //准备阶段
     public void Prepare()
     {
@@ -197,7 +191,7 @@ public class PlayerController : MonoBehaviour
                     RaycastHit2D hit2D = Physics2D.BoxCast(transform.position, new Vector2(1.5f, 1f), 0, Vector2.down, 1.2f, whatIsTrap);
                     if (hit2D)
                     {
-                        Debug.DrawLine(transform.position, transform.position + Vector3.down, Color.red, 6.0f);
+                        //Debug.DrawLine(transform.position, transform.position + Vector3.down, Color.red, 6.0f);
                         trueSpeedY = recoilSpeed * upRecoilForce;
                     }
                 }
@@ -269,9 +263,17 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.W))
                 {
-                    releaseAnim = Instantiate(castReleaseAnimations[0], this.transform.position + new Vector3(0, castSize[0].x, 0), Quaternion.Euler(0, (direct + 1) * 90, -90));
-                    //向上生成暗影波发出，根据左右方向生成暗影波发出
-                    //无反作用力
+                    if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A))
+                    {
+                        releaseAnim = Instantiate(castReleaseAnimations[0], this.transform.position, Quaternion.Euler(0, (direct + 1) * 90, -45));
+                        //向左/右上生成暗影波发出，根据左右方向生成暗影波发出
+                    }
+                    else
+                    {
+                        releaseAnim = Instantiate(castReleaseAnimations[0], this.transform.position, Quaternion.Euler(0, (direct + 1) * 90, -90));
+                        //向上生成暗影波发出，根据左右方向生成暗影波发出
+                        //无反作用力
+                    }
                     trueSpeedX = trueSpeedY = 0;    //技能释放时玩家静滞
                 }
                 else
@@ -306,10 +308,18 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(trueSpeedX, trueSpeedY);
 
         //确定玩家是否闲置以及在地面移动
-        if (!isJumping && isGrounded)
+        if (!isJumping)
         {
-            if (moveInput == 0.0f) anim.Play("Idle");
-            else anim.Play("Walk");
+            if(isGrounded)
+            {
+                if (moveInput == 0.0f) anim.Play("Idle");
+                else anim.Play("Walk");
+            }
+            else
+            {
+                anim.Play("Jump");
+            }
+            
         }
     }
 
@@ -323,9 +333,9 @@ public class PlayerController : MonoBehaviour
     //无敌时间
     IEnumerator UnAttack(float unAttackTime)
     {
-        float amount = 0.0f;
         Material material = GetComponent<SpriteRenderer>().material;
         this.tag = "default";   //修改标签，不能被敌人识别
+        anim.Play("Jump");
         //闪烁效果
         GameObject hurtHandle = Instantiate(hurtMask, transform.position, transform.rotation);
         material.SetColor("_FlashColor", Color.white);
@@ -341,6 +351,7 @@ public class PlayerController : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
         Destroy(hurtHandle);
+        anim.Play("Idle");
         material.SetFloat("_FlashAmount", 0.3f);
         yield return new WaitForSeconds(1f);
         material.SetFloat("_FlashAmount", 0f);
@@ -358,10 +369,11 @@ public class PlayerController : MonoBehaviour
     }    //死亡回调函数
 
     //死亡回调函数
-    public void Death(bool isSet)
+    public void Death()
     {
-        GameObject.Find("DeathMask").GetComponent<Canvas>().enabled = true;
-        rb.velocity = new Vector2(0f, 0f);
+        deathMask.GetComponent<UnityEngine.Canvas>().enabled = true;
+        trueSpeedX = trueSpeedY = 0.0f;
+        isCasting = false;      //蓄力终止
         if (effect != null)
             Destroy(effect);
         if (threshAnim != null)
@@ -373,28 +385,57 @@ public class PlayerController : MonoBehaviour
 
     public void beAttack(Transform trans, float value)    //被攻击调用函数,首个参数为攻击者位置（设计反冲效果），第二个参数为受伤害值
     {
-        HP -= value;
-        config.Health -= (int)value;
+
         //设置僵直时间
         StartCoroutine(Floating(floatingTime));
         //无敌时间
         StartCoroutine(UnAttack(1.0f));
         //受击反冲设计
-        Vector2 temp = (Vector2)(this.transform.position - trans.position).normalized;//指向主角的反冲单位向量
-        trueSpeedX = temp.x * hurtRecoilForce;//反作用力
-        trueSpeedY = temp.y * hurtRecoilForce;
-        if(effect!=null)
+        Vector2 vel = (Vector2)(this.transform.position - trans.position).normalized;//指向主角的反冲单位向量
+        trueSpeedX = vel.x * hurtRecoilForce;//反作用力
+        trueSpeedY = vel.y * hurtRecoilForce;
+
+        //特效销毁
+        if (effect != null)
             Destroy(effect);
-        if(threshAnim!=null)
+        if (threshAnim != null)
             Destroy(threshAnim);
-        if(playSource != null)
+        if (playSource != null)
             playSource.Stop();
 
+        //防御反击
+        if (config.Level >= 1 && isCasting && castTimeCounter < counterAtkThreshTime)
+        {
+            float angle = SignedAngleBetween(vel, Vector3.right, -Vector3.forward);
+            GameObject counterAtk = Instantiate(bounceAnimations[1], this.transform.position, Quaternion.Euler(0f, 0f, angle));
+            counterAtk.GetComponent<SpriteRenderer>().color = Color.red;
+            counterAtk.transform.localScale = new Vector3(1f, 1.3f, 0f);
+            counterAtk.GetComponent<BounceAttack>().Power = 2;
+            AudioManger.Instance.PlayAudio("Flash1", transform.position);
+        }
+        else
+        {
+            HP -= value;
+            config.Health -= (int)value;
+            AudioManger.Instance.PlayAudio("hero_land_hard", transform.position);
+        }
+
+        isCasting = false;      //蓄力终止
     }
+
+    public static float SignedAngleBetween(Vector3 a, Vector3 b, Vector3 n)
+    {
+        float angle = Vector3.Angle(a, b);
+        float sign = Mathf.Sign(Vector3.Dot(n, Vector3.Cross(a, b)));
+        float signed_angle = angle * sign;
+        return (signed_angle <= 0) ? 360 + signed_angle : signed_angle;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Trap")
         {
+            AudioManger.Instance.PlayAudio("hero_parry", transform.position);
             Death();
         }
     }

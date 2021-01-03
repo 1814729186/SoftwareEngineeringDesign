@@ -64,6 +64,7 @@ public class AudioManger
         tempObj.transform.SetParent(parent);
         tempObj.transform.localPosition = Vector3.zero;
         //设置音效源AudioSource组件参数，使其播放当前音效
+        source.volume = GameObject.Find("Config").GetComponent<Config>().musicVolum;
         source.clip = tempPlayClip;
         source.loop = true;
         source.Play();

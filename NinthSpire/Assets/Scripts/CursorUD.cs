@@ -31,7 +31,7 @@ public class CursorUD : MonoBehaviour
         }
         else
         {
-            this.transform.position += new Vector3(0, -1*speed, 0) * 2*Time.deltaTime;
+            this.transform.position += new Vector3(0, -1*speed, 0) * 2 * Time.deltaTime;
         }
         if (this.transform.position.y > thisY + border) state = false;
         else if (this.transform.position.y < thisY - border) state = true;

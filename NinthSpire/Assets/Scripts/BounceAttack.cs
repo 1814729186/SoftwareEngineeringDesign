@@ -37,7 +37,7 @@ public class BounceAttack : MonoBehaviour
             Instantiate(BounceAnimation, this.transform.position, Quaternion.Euler(0f, 0f, 0f));
             if (collision.tag == "Enemy")
             {
-                collision.GetComponent<Enemy>().BeAttack(1);
+                collision.GetComponent<Enemy>().BeAttack(Power);
             }
         }
     }

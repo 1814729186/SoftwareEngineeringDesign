@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3282509712894803128}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12, y: -2.13, z: 2.188617}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3282509713103418698}
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -61
   m_Sprite: {fileID: -1994196945628308216, guid: 3441c19847ebdc34585fac19e923f7f0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -118,23 +118,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 2
-  attack: 5
+  attack: 1
   bornPosition: {x: 0, y: 0, z: 0}
-  rebornTime: 5
+  rebornTime: 50
   isAlive: 1
   hurtTime: 3
   movePosition:
   - {fileID: 3282509713237148216}
   curPosition: 0
-  MAXMOVESPEED: 0
+  MAXMOVESPEED: 0.04
   moveSpeed: 0
   animator: {fileID: 0}
   hitEffect: {fileID: 3899700569238765358, guid: a498daa30eccbc34596a9f25092b4ceb,
     type: 3}
   attackState: 0
-  flyBor: 0
-  attackBor: 0
+  flyBor: 2
+  attackBor: 6
   aimPoint: {x: 0, y: 0, z: 0}
+  retreatingTime: 4
+  wanderingTime: 0.4
+  detectFactor: 6.5
 --- !u!50 &3282509712894803110
 Rigidbody2D:
   serializedVersion: 4
@@ -166,7 +169,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.13914478}
@@ -206,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3282509713103418697}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.71135, y: -2.0445433, z: -2.188617}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3282509712894803131}

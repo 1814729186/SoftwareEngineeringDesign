@@ -60,7 +60,7 @@ public class Enemy : MonoBehaviour
         Rigidbody2D rigid = this.GetComponent<Rigidbody2D>();
         rigid.gravityScale = 1; //设置重力
         this.GetComponent<BoxCollider2D>().enabled = false; //取消碰撞体
-                                                            //启动死亡携程
+                                                            //启动死亡协程
         StartCoroutine(DeathIEnu());
         //调用重生程序
         Reborn();
@@ -90,10 +90,11 @@ public class Enemy : MonoBehaviour
         this.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
         this.GetComponent<SpriteRenderer>().enabled = false;    //取消渲染
         this.GetComponent<Rigidbody2D>().gravityScale = 0; //取消重力
+        this.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
     protected virtual IEnumerator RebornIEnu() //重生协程
     {
-        //重生携程等待重生时间后重生
+        //重生协程等待重生时间后重生
         yield return new WaitForSeconds(rebornTime);
         this.GetComponent<Rigidbody2D>().gravityScale = 0;
         this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
@@ -133,10 +134,12 @@ public class Enemy : MonoBehaviour
     {
         //受伤时，移动速度减慢，设置协程
         HP -= value;
-        StartCoroutine(BeAttackIEnu());   //启动携程
+        StartCoroutine(BeAttackIEnu());   //启动协程
     }
-    protected virtual IEnumerator BeAttackIEnu()  //受伤携程
-    {//受伤渲染变淡，速度减慢
+    public virtual IEnumerator BeAttackIEnu()  //受伤协程
+    {
+        AudioManger.Instance.PlayAudio("hero_land_hard", transform.position);
+        //受伤渲染变淡，速度减慢
         moveSpeed = MAXMOVESPEED / 2;
         //闪烁效果
         GameObject hitHandle = Instantiate(hitEffect, transform.position, transform.rotation);
@@ -155,12 +158,20 @@ public class Enemy : MonoBehaviour
     }
 
     //攻击
-    public virtual void OnTriggerEnter2D(Collider2D collision)
+    /*public virtual void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
             collision.GetComponent<PlayerController>().beAttack(this.transform, attack);
         }
 
+    }*/
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerController>().beAttack(this.transform, attack);
+        }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Bag : MonoBehaviour
 {
@@ -33,7 +34,7 @@ public class Bag : MonoBehaviour
     void Update()
     {
         ArrangeBag();
-        if (Input.GetKeyDown(KeyCode.B))
+        if (SceneManager.GetActiveScene().name != "StartScene" && GetComponent<Config>().pause == false && Input.GetKeyDown(KeyCode.B))
         {
             if (bagIsOn)//关闭背包
             {
@@ -58,22 +59,27 @@ public class Bag : MonoBehaviour
     public void useHealMedicine()
     {
         //药水数量为零，提示药瓶不足
-        if (healMedicineNum <= 0)
+        if (GameObject.Find("Player") != null)
         {
-            transform.Find("Canvas").Find("WarningText").GetComponent<Text>().text = "药品数量不足";
-        }else if(GameObject.Find("Player").GetComponent<PlayerController>().HP >= 3)
-        {
-            transform.Find("Canvas").Find("WarningText").GetComponent<Text>().text = "当前血量已满";
-        }else
-        {
-            //使用药品
-            healMedicineNum--;
-            GameObject.Find("Player").GetComponent<PlayerController>().HP = 3;
-            GetComponent<Config>().Health = 3;
-            transform.Find("Canvas").Find("WarningText").GetComponent<Text>().text = "使用药品成功";
+            if (healMedicineNum <= 0)
+            {
+                transform.Find("Canvas").Find("WarningText").GetComponent<Text>().text = "药品数量不足";
+            }
+            else if (GameObject.Find("Player").GetComponent<PlayerController>().HP >= 3)
+            {
+                transform.Find("Canvas").Find("WarningText").GetComponent<Text>().text = "当前血量已满";
+            }
+            else
+            {
+                //使用药品
+                healMedicineNum--;
+                GameObject.Find("Player").GetComponent<PlayerController>().HP = 3;
+                GetComponent<Config>().Health = 3;
+                transform.Find("Canvas").Find("WarningText").GetComponent<Text>().text = "使用药品成功";
+            }
+            transform.Find("Canvas").Find("WarningText").GetComponent<Text>().enabled = true;
+            StartCoroutine(WarningTextFadeIEnu());
         }
-        transform.Find("Canvas").Find("WarningText").GetComponent<Text>().enabled = true;
-        StartCoroutine(WarningTextFadeIEnu());
 
     }
     IEnumerator WarningTextFadeIEnu()
@@ -87,15 +93,16 @@ public class Bag : MonoBehaviour
     {
         //更新背包参数值
         transform.Find("Canvas").Find("HealMedicine").Find("Num").GetComponent<Text>().text = healMedicineNum.ToString();
-        transform.Find("Bag").Find("HealMedicine").Find("Num").GetComponent<Text>().text = healMedicineNum.ToString();
+        Transform wrapper = bag.transform.Find("wrapper");
+        wrapper.Find("HealMedicine").Find("Num").GetComponent<Text>().text = healMedicineNum.ToString();
         if (foreverMedallion == 0)
-            transform.Find("Bag").Find("foreverMedallion").GetComponent<Image>().color = new Color(1, 1, 1, 0.1f);
+            wrapper.Find("foreverMedallion").GetComponent<Image>().color = new Color(1, 1, 1, 0.1f);
         else
-            transform.Find("Bag").Find("foreverMedallion").GetComponent<Image>().color = new Color(1, 1, 1, 1f);
+            wrapper.Find("foreverMedallion").GetComponent<Image>().color = new Color(1, 1, 1, 1f);
         if (quietMedallion == 0)
-            transform.Find("Bag").Find("quietMedallion").GetComponent<Image>().color = new Color(1, 1, 1, 0.1f);
+            wrapper.Find("quietMedallion").GetComponent<Image>().color = new Color(1, 1, 1, 0.1f);
         else
-            transform.Find("Bag").Find("quietMedallion").GetComponent<Image>().color = new Color(1, 1, 1, 1f);
+            wrapper.Find("quietMedallion").GetComponent<Image>().color = new Color(1, 1, 1, 1f);
 
     }
 

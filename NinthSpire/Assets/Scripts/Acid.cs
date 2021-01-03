@@ -14,14 +14,11 @@ public class Acid : MonoBehaviour
     [SerializeField] private float power;   //酸液攻击力
     void Start()
     {
-        player = GameObject.Find("Player");
-        Vector3 v = (player.transform.position - transform.position).normalized;
-        GetComponent<Rigidbody2D>().velocity = v;   //设置速度
         StartCoroutine(DestroyIEmu());  //调用协程，准备销毁
     }
     private void Update()
     {
-        
+        transform.Translate(speed * Time.deltaTime, 0f, 0f);
     }
 
     IEnumerator DestroyIEmu()
@@ -33,7 +30,7 @@ public class Acid : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            collision.GetComponent<PlayerController>().beAttack(this.transform,power);
+            collision.GetComponent<PlayerController>().beAttack(this.transform, power);
             Destroy(this.gameObject);
         }
     }

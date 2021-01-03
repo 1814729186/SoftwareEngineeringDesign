@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class NPCControllerSiLai : NPCController
 {
+    bool shopUIOpen;
    protected override void Start()
     {
             talk = new string[] { "武学参考指南，可以卖多少钱…不行…不能卖，这可是我的藏书。",
@@ -14,14 +15,14 @@ public class NPCControllerSiLai : NPCController
         random = new System.Random((int)Time.time);
         player = GameObject.Find("Player");
         name = "斯莱：";
+        shopUIOpen = false;
     }
 
     protected override void Update()
     {
         if (calulateDis(player.transform.position, this.transform.position) < 1f)
         {
-            Debug.Log("talk");
-            if (Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKeyDown(KeyCode.W)&&(!shopUIOpen))
             {
                 int index = random.Next(talk.Length);//随机播放一段话
                 transform.Find("Canvas/Image/Text").GetComponent<Text>().text = name + talk[index];
@@ -58,6 +59,7 @@ public class NPCControllerSiLai : NPCController
     public void OpenShopUI(bool state)//为true表示打开，为false表示关闭
     {
         this.transform.Find("Shop").GetComponent<UnityEngine.Canvas>().enabled = state;
+        shopUIOpen = state;
         Time.timeScale = state ? 0.0f : 1.0f;   //设置暂停
     }
 

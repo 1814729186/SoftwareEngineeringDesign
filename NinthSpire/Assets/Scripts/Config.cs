@@ -13,19 +13,21 @@ public class Config : MonoBehaviour
     public bool musicOn = true;
     public float musicVolum = 1f;
     public int CastAbility;
-    private bool pause; //是否打开暂停界面
+    public int Level;
+    public bool pause; //是否打开暂停界面
 
     public void Initial()   //Config初始化
     {
         CastAbility = 0;
+        Level = 0;
         Health = 3;
-        coinNum = 0;
+        coinNum = 20;
         GetComponent<Bag>().coin = this.coinNum;
         pause = false;
     }
     private void Start()
     {
-        CastAbility = 0;
+        //CastAbility = 0;
         transform.Find("Canvas").GetComponent<UnityEngine.Canvas>().enabled = false;
         musicOn = true;
         Object.DontDestroyOnLoad(this.gameObject);
@@ -78,7 +80,7 @@ public class Config : MonoBehaviour
         }
         GameObject.Find("Main Camera").GetComponent<AudioSource>().volume = musicVolum;
         if(musicOn == false) GameObject.Find("Main Camera").GetComponent<AudioSource>().volume = 0.0f;
-        if (Input.GetKeyDown(KeyCode.Escape))   //按下escape，打开暂停界面
+        if (SceneManager.GetActiveScene().name !=  "StartScene" && Input.GetKeyDown(KeyCode.Escape))   //按下escape，打开暂停界面
         {
             if(pause == false)
             {
@@ -133,7 +135,6 @@ public class Config : MonoBehaviour
         changeUI(0);    //关闭显示
         transform.Find("Canvas").GetComponent<UnityEngine.Canvas>().enabled = false;    //关闭主界面显示
         SceneManager.LoadScene(sceneTarget);    //返回主界面
+        if (sceneTarget == "StartScene") Destroy(this.gameObject);
     }
-
-
 }

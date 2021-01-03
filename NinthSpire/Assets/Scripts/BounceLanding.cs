@@ -12,7 +12,6 @@ public class BounceLanding : MonoBehaviour
         anim = this.GetComponent<Animator>();
         anim.Play("Bounce");
         AudioManger.Instance.PlayAudio("hero_parry", transform.position);
-
     }
 
     // Update is called once per frame
